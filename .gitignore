@@ -1,0 +1,68 @@
+# Yarn
+.pnp.*
+**/.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+node_modules
+**/report.xml
+.metals
+
+# sbt
+target
+dist
+wallet-engine/release
+
+# Others
+.DS_Store
+*.log
+result
+.bsp/
+.idea/
+.nix/
+.env
+.direnv/
+.vscode/*
+!.vscode/.checkmarxIgnored
+!.vscode/settings.json
+!.vscode/extensions.json
+.bloop/
+metals.sbt
+tmp
+
+archive_info.txt
+libmidnight_zswap_c_bindings_v*.*
+
+
+# Build
+*.tsbuildinfo
+*.local
+coverage
+.turbo
+packages/*/*.tgz
+.rollup.cache/
+packages/src/**/*.d.ts*
+.clean-timestamp
+
+# reports
+reports
+**/allure-results/*
+!**/allure-results/categories.json
+
+# user files
+**/.sync_cache
+/packages/e2e-tests/res
+
+
+#claude
+.claude
+CLAUDE.md
+release-manifest.json
+plans/templates
+.repomixignore
+.opencode
+AGENTS.md
+repomix-output.xml
+.yarn/install-state.gz
